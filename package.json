@@ -1,0 +1,20 @@
+{
+  "name": "str1n9",
+  "version": "1.0.0",
+  "description": "Random String Generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/w2ex/sTr1n9.js.git"
+  },
+  "keywords": [
+    "string",
+    "password",
+    "generator"
+  ],
+  "author": "willizm",
+  "license": "GPL-3.0"
+}
