@@ -32,3 +32,28 @@ Generate random string of any length, in one Character type.
 * param [optional] types {String} default 'clnp'
 * param [optional] format {String) default null; This param indicates the precise output format, e.g 'cpcpnnlpn' produces
 'capital punctuation capital punctuation number number letter punctuation number';if given, the other params would be ignored.
+
+## Examples
+
+    var str1n9 = require('str1n9');
+
+**inputs:**
+
+    console.log(str1n9.randomTypeString());
+    console.log(str1n9.randomString());
+    console.log(str1n9.randomTypeString(12));
+    console.log(str1n9.randomString(12));
+    console.log(str1n9.randomTypeString(12, 'c'));
+    console.log(str1n9.randomString(12, 'cl'));
+    console.log(str1n9.randomString(null,null,'clpnppnlllcnnpc'));
+
+**outputs:**
+
+    o
+    9TQ7!Ou7
+    pquyvvzsyzqo
+    E2#6kzms7!76
+    CXUGRQDUJEWR
+    XuYNxiXMaaaA
+    Hg&3..9xtkG03'N
+
