@@ -1,6 +1,6 @@
 {
   "name": "str1n9",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Random String Generator.",
   "main": "str1n9.js",
   "scripts": {
