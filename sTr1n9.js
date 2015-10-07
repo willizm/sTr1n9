@@ -61,16 +61,38 @@ module.exports = {
             length = 0;
             types = null;
         }
-
+        var module = this;
         var output = '';
+        var tests = {
+            c: /[\x41-\x5a]/,
+            l: /[\x61-\x7a]/,
+            p: /[\x21-\x2f]/,
+            n: /[\d]/
+        };
 
-        if (length) {
+        function makeTypesString () {
+            // clear output
+            output = '';
             for (var i = 0; i < length; i++) {
-                output += this.randomTypeString(1, types[Math.floor(Math.random()*types.length)]);
+                output += module.randomTypeString(1, types[Math.floor(Math.random()*types.length)]);
             }
+            if (length >= types.length) {
+                // validate the output while required string length larger then types length
+                for (var i = 0, l = types.length; i < l; i++) {
+                    if (!tests[types[i]].test(output)) {
+                        makeTypesString();
+                    }
+                }
+            }
+        }
+
+        // make types random string
+        if (length) {
+            makeTypesString();
             return output;
         }
 
+        // make format string
         for (var i = 0, l = format.length; i < l; i++) {
             output += this.randomTypeString(1, format[i]);
         }
