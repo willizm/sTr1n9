@@ -1,4 +1,4 @@
-This module generates random string of any length, in for Character types: capital(upper case), letter(lower case),
+This module generates random string of any length, in four Character types: capital(upper case), letter(lower case),
 number, punctuation or any combination of them.
 
 ## USAGE
@@ -56,4 +56,10 @@ Generate random string of any length, in one Character type.
     CXUGRQDUJEWR
     XuYNxiXMaaaA
     Hg&3..9xtkG03'N
+
+## Use Case
+
+* [Password Generator (Chinese Version)](http://snipets.willizm.cn/pwdgen/)
+
+This simple web app generates password string consists of capital, letter, number and punctuation in any length, any combination.
 
