@@ -1,6 +1,6 @@
 {
   "name": "str1n9",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Random String Generator.",
   "main": "str1n9.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/w2ex/sTr1n9.js.git"
+    "url": "https://github.com/willizm/sTr1n9"
   },
   "keywords": [
     "string",
