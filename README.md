@@ -59,7 +59,7 @@ Generate random string of any length, in one Character type.
 
 ## Use Case
 
-* [Password Generator (Chinese Version)](http://snipets.willizm.cn/pwdgen/)
+* [Password Generator (Chinese Version)](http://willizm.cn/demo/pwdgen/)
 
 This simple web app generates password string consists of capital, letter, number and punctuation in any length, any combination.
 
